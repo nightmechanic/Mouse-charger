@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = 1/11/2015 11:58:14 PM
+
+BeginCmp
+TimeStamp = /54A9B035;
+Reference = C1;
+ValeurCmp = 10uF 35V;
+IdModule  = Nightmechanic_PCB:mm_3216;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A9B44F;
+Reference = C2;
+ValeurCmp = 10uF 35V;
+IdModule  = Nightmechanic_PCB:mm_3216;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A9BA29;
+Reference = C3;
+ValeurCmp = 10uF 35V;
+IdModule  = Nightmechanic_PCB:mm_3216;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A9C391;
+Reference = CON1;
+ValeurCmp = AAA_Bat_PC_con;
+IdModule  = Nightmechanic_PCB:Keystone_597;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A9AD12;
+Reference = CON2;
+ValeurCmp = Molex_105133-0011;
+IdModule  = Nightmechanic_PCB:Molex_105122_0011_no_slots;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A9C646;
+Reference = CON3;
+ValeurCmp = 1.5mm_PTH;
+IdModule  = Nightmechanic_PCB:1.5mm_PTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A9BD20;
+Reference = CON4;
+ValeurCmp = AAA_Bat_PC_con;
+IdModule  = Nightmechanic_PCB:Keystone_597;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A9AEA3;
+Reference = D1;
+ValeurCmp = P4SMA6.8A (TVS UNI);
+IdModule  = Nightmechanic_PCB:DO-214AC;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A9B11F;
+Reference = D2;
+ValeurCmp = Amber LED;
+IdModule  = Nightmechanic_PCB:SMD_MiniLED;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A9B39B;
+Reference = D3;
+ValeurCmp = Green LED;
+IdModule  = Nightmechanic_PCB:SMD_MiniLED;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A9B5DD;
+Reference = R1;
+ValeurCmp = ZEROHM;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A9B0F0;
+Reference = R2;
+ValeurCmp = 1.3k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A9B395;
+Reference = R3;
+ValeurCmp = 1.3k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A9B3D1;
+Reference = R4;
+ValeurCmp = 4.99k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A9AD63;
+Reference = U1;
+ValeurCmp = MCP73831-2ACI/OT;
+IdModule  = Nightmechanic_PCB:MCP_SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A9ADC4;
+Reference = U2;
+ValeurCmp = MCP1700-3002E/MB;
+IdModule  = Nightmechanic_PCB:MCP_SOT-89;
+EndCmp
+
+EndListe
