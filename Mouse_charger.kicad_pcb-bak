@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew "(2014-11-29 BZR 5307)-product")
+(kicad_pcb (version 4) (host pcbnew "(2014-12-10 BZR 5319)-product")
 
   (general
     (links 33)
@@ -14,8 +14,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -64,7 +64,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFEFFFF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x010f0_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory Fabrication_files/))
   )
 
   (net 0 "")
@@ -174,10 +174,10 @@
     )
   )
 
-  (module MCP_SOT-89 (layer F.Cu) (tedit 54B37DCE) (tstamp 54B2F2C2)
+  (module MCP_SOT-89 (layer F.Cu) (tedit 54B3A7D0) (tstamp 54B2F2C2)
     (at 134.5 97.3)
     (path /54A9ADC4)
-    (fp_text reference U2 (at -1.9 -2.4) (layer F.SilkS)
+    (fp_text reference U2 (at -2.2 -2.45) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MCP1700-3002E/MB (at 0 -2.5) (layer F.SilkS)
@@ -226,12 +226,17 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model smd/capacitors/c_1206.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module Nightmechanic_PCB:mm_3216 (layer F.Cu) (tedit 54B2F9A3) (tstamp 54B2F260)
+  (module Nightmechanic_PCB:mm_3216 (layer F.Cu) (tedit 54B3A7D9) (tstamp 54B2F260)
     (at 129.9 98.6 270)
     (path /54A9B44F)
-    (fp_text reference C2 (at -3.5 0.1 360) (layer F.SilkS)
+    (fp_text reference C2 (at -3.75 0.2 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "10uF 35V" (at 0.05 -2.15 270) (layer F.SilkS)
@@ -250,12 +255,17 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model smd/capacitors/c_1206.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module Nightmechanic_PCB:mm_3216 (layer F.Cu) (tedit 54B2FF0A) (tstamp 54B2F266)
+  (module Nightmechanic_PCB:mm_3216 (layer F.Cu) (tedit 54B3A7E5) (tstamp 54B2F266)
     (at 134.4 102.6 180)
     (path /54A9BA29)
-    (fp_text reference C3 (at 2 -2.2 180) (layer F.SilkS)
+    (fp_text reference C3 (at 0 -2.1 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "10uF 35V" (at 0.05 -2.15 180) (layer F.SilkS)
@@ -270,6 +280,11 @@
     (pad 2 smd rect (at 1.7 0 180) (size 1.4 1.8) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
     (model Capacitors_SMD/C_1206N.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model smd/capacitors/c_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -298,6 +313,11 @@
     (pad 3 thru_hole circle (at -1.524 4.445 180) (size 2.54 2.54) (drill 1.3208) (layers *.Cu *.Mask F.SilkS)
       (net 11 /V_batt))
     (model E:/Kicad_libs/Nightmechanic_PCB/Keystone_597.wrl
+      (at (xyz 0.025 0 -0.15))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz -90 0 0))
+    )
+    (model /Users/rankatz/Mouse-charger/project_3d/Keystone_597.wrl
       (at (xyz 0.025 0 -0.15))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 0))
@@ -340,6 +360,11 @@
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 0))
     )
+    (model /Users/rankatz/Mouse-charger/project_3d/molex_105133_0011.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module Nightmechanic_PCB:1.5mm_PTH (layer F.Cu) (tedit 54B2FF70) (tstamp 54B2F27E)
@@ -377,6 +402,11 @@
     (pad 3 thru_hole circle (at -1.524 4.445) (size 2.54 2.54) (drill 1.3208) (layers *.Cu *.Mask F.SilkS)
       (net 12 /V_3V0))
     (model E:/Kicad_libs/Nightmechanic_PCB/Keystone_597.wrl
+      (at (xyz 0.025 0 -0.15))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz -90 0 0))
+    )
+    (model /Users/rankatz/Mouse-charger/project_3d/Keystone_597.wrl
       (at (xyz 0.025 0 -0.15))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 0))
@@ -439,6 +469,11 @@
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 0))
     )
+    (model /Users/rankatz/Mouse-charger/project_3d/rohm_2012_LED_amber.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module Nightmechanic_PCB:SMD_MiniLED (layer F.Cu) (tedit 54B2F955) (tstamp 54B2F297)
@@ -464,6 +499,11 @@
     (pad 2 smd rect (at 1.2 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
     (model E:/Kicad_libs/Nightmechanic_PCB/rohm_2012_LED_green.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz -90 0 0))
+    )
+    (model /Users/rankatz/Mouse-charger/project_3d/rohm_2012_LED_green.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 0))
@@ -497,6 +537,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model smd/resistors/R0805/R0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 54B2F97F) (tstamp 54B2F2A3)
@@ -526,15 +571,20 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model smd/resistors/R0805/R0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 54B2F95F) (tstamp 54B2F2A9)
+  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 54B3A7C3) (tstamp 54B2F2A9)
     (at 122.4 102.7 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /54A9B395)
     (attr smd)
-    (fp_text reference R3 (at 3.2 0 180) (layer F.SilkS)
+    (fp_text reference R3 (at -3 0.05 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1.3k (at 0 2.1 180) (layer F.SilkS)
@@ -553,6 +603,11 @@
     (model Resistors_SMD/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model smd/resistors/R0805/R0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
   )
@@ -582,6 +637,11 @@
     (model Resistors_SMD/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model smd/resistors/R0805/R0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
   )
@@ -688,7 +748,7 @@
   (gr_line (start 145 93.8) (end 145 106) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 97 93.8) (end 145 93.8) (angle 90) (layer Edge.Cuts) (width 0.1))
 
-  (segment (start 123.8 104.9) (end 125.75 104.9) (width 0.254) (layer F.Cu) (net 1) (status 400000))
+  (segment (start 123.8 104.9) (end 125.75 104.9) (width 0.254) (layer F.Cu) (net 1))
   (segment (start 130.05 102.6) (end 130.05 102.5) (width 0.254) (layer B.Cu) (net 1) (tstamp 54B39FF9))
   (via (at 130.05 102.6) (size 0.889) (layers F.Cu B.Cu) (net 1))
   (segment (start 131.6 104.15) (end 130.05 102.6) (width 0.254) (layer F.Cu) (net 1) (tstamp 54B39FF5))
