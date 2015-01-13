@@ -3,7 +3,7 @@
   (general
     (links 33)
     (no_connects 0)
-    (area 96.949999 93.749999 145.050001 106.050001)
+    (area 96.799999 91.925 145.200001 106.125001)
     (thickness 1.6)
     (drawings 5)
     (tracks 235)
@@ -415,6 +415,16 @@
       (at (xyz 0.025 0 -0.15))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 0))
+    )
+    (model "E:/GitHub/Mouse-charger/project_3d/User Library-m2-m6 slotted pan head screw bs4183 - nickel plated.wrl"
+      (at (xyz 0.1 -0.075 0.205))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz 0 180 0))
+    )
+    (model "/Users/rankatz/Mouse-charger/project_3d/User Library-m2-m6 slotted pan head screw bs4183 - nickel plated.wrl"
+      (at (xyz 0.1 -0.075 0.205))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz 0 180 0))
     )
   )
 
